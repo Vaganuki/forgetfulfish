@@ -1,0 +1,19 @@
+.slider {
+  width: 80%;
+  height: var(--height);
+  border: 1px solid red;
+}
+.slider .list {
+  display: flex;
+  width: 100%;
+  min-width: calc(var(--width) * var(--quantity));
+}
+.slider .list .item {
+  width: var(--width);
+  height: var(--height);
+}
+.slider .list .item img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

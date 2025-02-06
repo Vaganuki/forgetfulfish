@@ -12,7 +12,7 @@ Thanks for stopping by and for your support !
 ## FR
 Ce projet a été lancé le 06-02-2025;
 
-Je suis actuellement en formation, aime énormément Magic: The gathering et explorer de nouveaux terrains.
+Je suis actuellement en formation; j'aime énormément Magic: The gathering et explorer de nouveaux terrains.
 
 Vous pouvez découvrir [tout sur ce format](https://youtu.be/Otdgj8fBQxc?si=kkpsFRTL9Vxxs4Sy) sur [la chaine de Rhystic Studies](https://www.youtube.com/@RhysticStudies). J'ai été très vite pris de passion par cette dernière et par ce format de jeu; De ce fait, j'espère que ce projet atteindra le potentiel qu'il a dans mon esprit.
 

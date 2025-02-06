@@ -1,0 +1,20 @@
+.slider{
+    width: 80%;
+    height: var(--height);
+    border: 1px solid red;
+    & .list{
+        display: flex;
+        width: 100%;
+        min-width: calc(var(--width) * var(--quantity));
+        & .item{
+            width: var(--width);
+            height: var(--height);
+            & img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+// source : https://www.youtube.com/watch?v=mF9yOwlunWk
