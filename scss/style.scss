@@ -1,12 +1,11 @@
-$time: 60s;
+$time: 10s;
 body{
     padding: 4em;
     background-color: #c2c2c2;
 }
 
 .slider{
-    margin: 0 auto;
-    width: 80%;
+    width: 100%;
     height: var(--height);
     mask-image: linear-gradient(
         90deg,
@@ -15,28 +14,29 @@ body{
         rgba(0,0,0,1)90%,
         rgba(0,0,0,0)100%
     );
-    &:hover{
-        transform: scale(1.1);
-        .item{        
-            animation-play-state: paused!important;
-        }
+    &:hover .item{        
+        animation-play-state: paused!important;
     }
     & .list{
         display: flex;
         min-width: calc(var(--width) * var(--quantity));
         & .item{
             width: var(--width);
-            animation: carousel $time linear infinite;
-            position: absolute;
-            left: 100%;
+            // animation: carousel $time linear infinite;
+            // position: absolute;
+            // left: 100%;
+            animation: test $time linear infinite;
             animation-delay: calc(($time / var(--quantity)) * (var(--position) - 1));
-            &:hover ~ .item{
-                transform: scale(0.7);
-                filter: grayscale(0.5);
-            }
+            &:hover{
+                transform: scale(1.1);
+                & ~ .item{
+                    transform: scale(0.7);
+                    filter: grayscale(01);
+                }
+            } 
             &:has(~ .item:hover){
                 transform: scale(0.7);
-                filter: grayscale(0.5);
+                filter: grayscale(01);
             }
             & img{
                 width: 100%;
@@ -88,6 +88,15 @@ body{
     }
     to{
         left: calc(var(--width) * -1);
+    }
+}
+
+@keyframes test{
+    from{
+        transform: translate(100%);
+    }
+    to{
+        transform: translate(-150%);
     }
 }
 
